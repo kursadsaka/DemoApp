@@ -20,7 +20,7 @@ Set up a code repository with continuous integration and deployment.
 
 **Specification:**
 Set up a git repository in your github account. Follow the set up command instructions carefully:
-https://docs.google.com/document/d/1bH7zX7AA93THTylXPwb78P2H2xfyrhwhWiTaXxvJ0aU 
+[Instructions for this hw](docs/Instructions.pdf)
 
 The repository must satisfy the following criteria:
 1.	It must contain an App.java file which has a simple static method implementation:
