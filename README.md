@@ -60,22 +60,23 @@ Example screenshots:
  
 Example look of github repository
 
- 
+ ![alt text](https://github.com/TOBB-ETU-BIL481/fall2019-hw1/blob/master/example_screenshots/git.jpg)
 
  
 Example Travis screenshot (It must have the repository address visible, in this case: “cagdasgerede/myDemoApp”)
  
 
-
+![alt text](https://github.com/TOBB-ETU-BIL481/fall2019-hw1/blob/master/example_screenshots/travis.jpg)
 
  
 Example heroku screenshot (It must have the github repository address visible)
  
 
-
+![alt text](https://github.com/TOBB-ETU-BIL481/fall2019-hw1/blob/master/example_screenshots/heroku.jpg)
  
 
 
 Example webapp screenshot 
 (In your case, you will have as many text areas as the number of parameters of your static method) 
+![alt text](https://github.com/TOBB-ETU-BIL481/fall2019-hw1/blob/master/example_screenshots/webapp.jpg)
  
