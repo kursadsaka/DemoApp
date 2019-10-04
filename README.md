@@ -1,3 +1,5 @@
+This a homework project to become familiar with the code repository with continuous integration and deployment. We have a function taking four parameters and doing computation on them.
+
 # fall2019-hw1
 
 **BIL 481 - HW 1: **
