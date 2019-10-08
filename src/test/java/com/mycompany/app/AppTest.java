@@ -52,5 +52,27 @@ public class AppTest extends TestCase {
 		ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(3, 4, 5));
 		assertFalse(new App().searchAndSum(array, 4, array2, 49));
 	}
+
+    public void testEmptyArray1() {
+        ArrayList<Integer> array = new ArrayList<>();
+        ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(3, 4, 5));
+        assertFalse(new App().searchAndSum(array, 5, array2, 60));
+    }
+
+    public void testEmptyArray2() {
+        ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 25));
+        ArrayList<Integer> array2 = new ArrayList<>();
+        assertFalse(new App().searchAndSum(array, 5, array2, 60));
+    }
+
+    public void testNullArray1() {
+        ArrayList<Integer> array2 = new ArrayList<>(Arrays.asList(3, 4, 5));
+        assertFalse(new App().searchAndSum(null, 5, array2, 60));
+    }
+
+    public void testNullArray2() {
+        ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 25));
+        assertFalse(new App().searchAndSum(array, 5, null, 60));
+    }
     
 }
